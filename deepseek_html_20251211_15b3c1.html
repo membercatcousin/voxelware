@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Under Construction</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial Black', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 6px;
+            text-shadow: 
+                0 0 10px #9b00ff,
+                0 0 20px #9b00ff,
+                0 0 30px #9b00ff,
+                0 0 40px #6a00ff;
+            color: #e6d6ff;
+            line-height: 1.1;
+            animation: pulse 2s infinite alternate;
+        }
+
+        @keyframes pulse {
+            0% {
+                text-shadow: 
+                    0 0 10px #9b00ff,
+                    0 0 20px #9b00ff,
+                    0 0 30px #9b00ff,
+                    0 0 40px #6a00ff;
+            }
+            100% {
+                text-shadow: 
+                    0 0 15px #9b00ff,
+                    0 0 25px #9b00ff,
+                    0 0 35px #9b00ff,
+                    0 0 50px #6a00ff;
+            }
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 3rem;
+                letter-spacing: 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 2rem;
+                letter-spacing: 3px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>WEBSITE<br>WORK IN PROGRESS</h1>
+</body>
+</html>
